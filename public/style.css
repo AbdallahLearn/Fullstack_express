@@ -1,0 +1,105 @@
+*{
+    margin:0;
+    padding:0; 
+    box-sizing:border-box;   
+}
+header{
+    display:flex;
+    justify-content: space-between;
+    padding:30px 20px;
+    background:rgb(230, 230, 225);
+    align-items: center;
+    height:50px;
+}
+header a{
+    color:black;
+    text-align: center;
+    padding:12px;
+    text-decoration: none;
+    font-size: 18px;
+    line-height: 25px;
+    border-radius:4px;
+}
+header a.logo{
+    font-size:45px;
+    font-weight: bold;
+}
+header a:hover{
+    background:blue;
+    color:white;
+}
+header a.active{
+    background-color: #1e90ff;
+    color:white;
+}
+.user-form-container {
+    padding: 70px;
+    margin-top: 30px;
+    background:rgb(230, 230, 225);
+}
+.user-form-container form{
+    margin-top:30px;
+}
+label{
+    font-weight: bold;
+}
+input{
+    width:100%;
+    padding:12px 20px;
+    margin:8px 0;
+    border:solid 1px #ccc;
+    border-radius: 4px;
+}
+button{
+    background:green;
+    padding:14px 20px;
+    color:white;
+    margin:8px 0;
+    border-radius: 4px;
+    cursor:pointer;
+    font-size:20px;
+}
+
+.all-users{
+    padding:40px 70px
+}
+
+#users{
+    width:100%;
+}
+
+#users th, #users td{
+    border:1px solid #ddd;
+    padding:8px;
+}
+
+#users tr:nth-child(even){
+    background:#f2f2f2;
+}
+#users tr:hover{
+    background-color: #ccc;
+}
+#users th{
+    background-color:green;
+    color:white;
+}
+#users .edit, #users .delete{
+    padding: 7px;
+    cursor: pointer;
+    color:white;
+}
+#users .edit{
+    background-color: green;
+    margin-right: 5px;
+}
+#users .delete{
+    background-color: red;
+}
+
+footer{
+    text-align: center;
+    background-color:black;
+    font-size:30px;
+    color:white;
+    padding:40px;
+}
